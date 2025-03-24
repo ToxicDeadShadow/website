@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold War Loadout AI Advisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>Loadout AI Advisor</h1>
+                <p>Ask me about the best Cold War weapon builds!</p>
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai">
+                    <div class="message-content">
+                        Hello! I'm your Loadout Advisor. Ask me about any weapon builds like:
+                        <ul>
+                            <li>"Best no recoil XM4 build"</li>
+                            <li>"Aggressive MP5 loadout"</li>
+                            <li>"Quickscope Pelington setup"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Ask about any weapon build...">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="loadoutData.js"></script>
+    <script src="info.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
